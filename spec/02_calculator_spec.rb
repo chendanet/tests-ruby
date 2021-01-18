@@ -22,7 +22,7 @@ end
 
 describe "sum" do
   it "computes the sum of an empty array" do
-    expect(sum([])).to eq(0)
+    expect(sum([])).to eq(0) 
   end
 
   it "computes the sum of an array of one number" do
@@ -43,7 +43,7 @@ end
 
 describe "#multiply" do
 
-  it "multiplies two numbers" do
+  it "multiplies two numbers" do  # VOIR S'IL FAUT ENTRER 3 FCT OU 1 SEUL QUI EVOLUE 2 FOIS
     expect(multiply(3, 4)).to eq(12)
   end
 
